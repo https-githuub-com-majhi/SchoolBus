@@ -106,8 +106,8 @@ class MainActivity : AppCompatActivity() {
             ) {
                 isLoaded = false
                 val errorMessage = "Got Error! $error"
-                showToast(errorMessage)
-                infoTV.text = errorMessage
+                //showToast(errorMessage)
+                //infoTV.text = errorMessage
                 showProgress(false)
                 super.onReceivedError(view, request, error)
             }
